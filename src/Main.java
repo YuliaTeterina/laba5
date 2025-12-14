@@ -63,7 +63,7 @@ public class Main {
     }
 
     private static void runTask1() {
-        System.out.println("\n=== Задание 1: Дроби ===");
+        System.out.println("\n=== Задание 1.1: Шаблоны (Дроби) ===");
 
         System.out.print("Введите числитель: ");
         int num = Integer.parseInt(scanner.nextLine());
@@ -85,7 +85,7 @@ public class Main {
     }
 
     private static void runTask2() {
-        System.out.println("\n=== Задание 2: Кот и мяуканье ===");
+        System.out.println("\n=== Задание 2.1:  Структурные шаблоны (Количество мяуканий) ===");
 
         System.out.print("Введите имя кота: ");
         String name = scanner.nextLine();
@@ -104,7 +104,7 @@ public class Main {
     }
 
     private static void runTask3() {
-        System.out.println("\n=== Задание 3: Первые вхождения ===");
+        System.out.println("\n=== Задание 3.10: Список (Первые вхождения) ===");
 
         System.out.println("Введите элементы через пробел:");
         String input = scanner.nextLine();
@@ -117,7 +117,7 @@ public class Main {
     }
 
     private static void runTask4() {
-        System.out.println("\n=== Задание 4: Многоборье ===");
+        System.out.println("\n=== Задание 4.10: Мап (Многоборье) ===");
 
         try {
 
@@ -135,7 +135,7 @@ public class Main {
     }
 
     private static void runTask5() {
-        System.out.println("\n=== Задание 5: Символы из четных слов ===");
+        System.out.println("\n=== Задание 5.6: Сет (Символы из четных слов) ===");
 
         System.out.println("Введите текст:");
         String text = scanner.nextLine();
@@ -149,7 +149,7 @@ public class Main {
     }
 
     private static void runTask6() {
-        System.out.println("\n=== Задание 6: Очередь в обратном порядке ===");
+        System.out.println("\n=== Задание 6.1: Очередь (Очередь в обратном порядке) ===");
 
         Queue<String> queue = new LinkedList<>();
         System.out.println("Введите элементы очереди через пробел:");
@@ -164,7 +164,7 @@ public class Main {
     }
 
     private static void runTask7() {
-        System.out.println("\n=== Задание 7: Точки и стримы ===");
+        System.out.println("\n=== Задание 7: Стрим ===");
         System.out.println("1. Обработка точек");
         System.out.println("2. Обработка файла с именами");
         System.out.print("Выберите: ");
