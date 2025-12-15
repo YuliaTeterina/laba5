@@ -41,11 +41,6 @@ public class Main {
                 default:
                     System.out.println("Неверный выбор!");
             }
-
-            if (running && choice != 0) {
-                System.out.println("\nНажмите Enter для продолжения...");
-                scanner.nextLine();
-            }
         }
         scanner.close();
     }
